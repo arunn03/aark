@@ -793,7 +793,8 @@ label {
 .header-top-contact ul {
   display: flex;
   align-items: center;
-  gap: 25px;
+  justify-content: space-between;
+  /* gap: 25px; */
 }
 
 .header-top-contact a {
@@ -833,6 +834,10 @@ label {
 
 .header-top-social a:hover {
   color: var(--color-dark);
+}
+
+.header-top-left {
+  width: 100%;
 }
 
 
@@ -1432,7 +1437,7 @@ label {
 .hero-single .hero-content .hero-sub-title {
   display: inline-block;
   color: var(--theme-color);
-  font-size: 25px;
+  font-size: 32px;
   letter-spacing: 6px;
   font-weight: 800;
   position: relative;
