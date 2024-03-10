@@ -1437,7 +1437,7 @@ label {
 .hero-single .hero-content .hero-sub-title {
   display: inline-block;
   color: var(--theme-color);
-  font-size: 32px;
+  font-size: 36px;
   letter-spacing: 6px;
   font-weight: 800;
   position: relative;
@@ -1578,7 +1578,7 @@ label {
 @media all and (max-width: 767px) {
 
   .hero-single .hero-content .hero-sub-title {
-    font-size: 18px;
+    font-size: 26px;
   }
 
   .hero-single .hero-content .hero-btn {
@@ -1836,6 +1836,12 @@ label {
   top: 0;
   font-family: "Font Awesome 6 Pro";
   color: var(--theme-color);
+}
+
+@media all and (max-width: 600px) {
+  .about-right {
+    padding: 0 15px;
+  }
 }
 
 @media all and (max-width: 991px) {
