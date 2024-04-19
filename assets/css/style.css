@@ -1424,7 +1424,7 @@ label {
 
 .hero-single .hero-content .hero-title {
   color: var(--color-white);
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 800;
   margin: 20px 0;
   text-transform: capitalize;
@@ -1437,7 +1437,7 @@ label {
 .hero-single .hero-content .hero-sub-title {
   display: inline-block;
   color: var(--theme-color);
-  font-size: 36px;
+  font-size: 55px;
   letter-spacing: 6px;
   font-weight: 800;
   position: relative;
@@ -1578,7 +1578,7 @@ label {
 @media all and (max-width: 767px) {
 
   .hero-single .hero-content .hero-sub-title {
-    font-size: 26px;
+    font-size: 40px;
   }
 
   .hero-single .hero-content .hero-btn {
